@@ -9,7 +9,7 @@ from tqdm import tqdm
 def main():
     DATA_DIR = 'datasets\\CIFAR10'
     EPOCHS = 200
-    BATCH_SIZE = 512
+    BATCH_SIZE = 128
     REAL_CLASS = 2
     VAL_EACH = 10
 
